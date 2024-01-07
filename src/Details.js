@@ -49,7 +49,7 @@ export default function Details(props) {
                 {data["weather"][0]["main"]}
               </Text>
             </View>
-            <Text>{data['main']['temp']-273} &deg; C</Text>
+            {/* <Text>{data['main']['temp']-273} &deg; C</Text> */}
           </View>
         ) : null}
       </View>
